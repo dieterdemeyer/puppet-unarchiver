@@ -6,6 +6,6 @@
 class unarchiver {
   package { 'Unarchiver':
     provider => 'compressed_app',
-    source   => 'http://theunarchiver.googlecode.com/files/TheUnarchiver3.6.1.zip',
+    source   => 'http://theunarchiver.googlecode.com/files/TheUnarchiver3.8.zip',
   }
 }
