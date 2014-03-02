@@ -3,11 +3,11 @@
 # Examples
 #
 #  include unarchiver
-class unarchiver {
+class unarchiver($version='3.9.1') {
 
-  package { 'Unarchiver-3.9.1':
+  package { "TheUnarchiver-${version}":
     provider => 'compressed_app',
-    source   => 'https://theunarchiver.googlecode.com/files/TheUnarchiver3.9.1.zip',
+    source   => "https://theunarchiver.googlecode.com/files/TheUnarchiver${version}.zip",
   }
 
 }
